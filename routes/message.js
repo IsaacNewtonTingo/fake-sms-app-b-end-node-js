@@ -10,7 +10,7 @@ router.post("/post-message", async (req, res) => {
     amount: amount,
     account: account,
     balance: 1230 - amount,
-    createdAt: Date.now() - 10800000,
+    createdAt: Date.now(),
   });
 
   await newMessage
