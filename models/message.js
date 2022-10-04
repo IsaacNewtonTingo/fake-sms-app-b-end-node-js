@@ -3,9 +3,9 @@ const Schema = mongoose.Schema;
 
 const MessageSchema = new Schema({
   code: String,
-  amount: Number,
-  account: Number,
-  balance: Number,
+  amount: String,
+  account: String,
+  balance: String,
   createdAt: Date,
 });
 
